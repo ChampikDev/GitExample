@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
             helloButton.setOnClickListener {
-                greetingTextView.text = "Hello ${nameEditText.text}"
+                greetingTextView.text = "Hello ${nameEditText.text}! How are you today?"
             }
         }
     }
